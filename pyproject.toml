@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "hw-web-08"
+version = "0.1.0"
+description = ""
+authors = ["ArtemZhuravlev <Utah954@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+setuptools = "^69.0.3"
+certifi = "^2023.11.17"
+faker = "^22.5.1"
+pika = "^1.3.2"
+redis = "^5.0.1"
+redis-lru = "^0.1.2"
+pymongo = "^4.6.1"
+celery = "^5.3.6"
+mongoengine = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
